@@ -1,5 +1,20 @@
 /*
-Theme Name: Comunica Ciência
-Author: Seu Nome
+Theme Name: Dev Theme
+Theme URI: #
+Author: João Miguel
+Description: Tema personalizado para o projeto de comunicação científica.
 Version: 1.0
+Text Domain: dev-theme
 */
+
+/* Insira aqui o seu CSS global ou estilos embutidos do seu HTML base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}

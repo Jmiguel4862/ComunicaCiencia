@@ -1,0 +1,28 @@
+comunica-ciencia/
+│
+├── style.css                 # [OBRIGATÓRIO] Cabeçalho do tema e estilos globais principais
+├── index.php                 # [OBRIGATÓRIO] Fallback geral (se nenhuma outra regra for encontrada)
+├── functions.php             # [BACK-END] O "cérebro" do tema: registra menus, suporte a imagens, scripts e funções PHP
+├── header.php                # [FRONT-END/MODULAR] Cabeçalho HTML global (logo, menu superior)
+├── footer.php                # [FRONT-END/MODULAR] Rodapé global do site
+│
+├── page.php                  # [MODELO] Padrão para páginas institucionais genéricas
+├── front-page.php            # [MODELO] Específico para a página inicial ("Início")
+├── single.php                # [MODELO] Para exibir posts/notícias individuais detalhados
+├── archive.php               # [MODELO] Para listagens (ex: listagem de projetos de extensão ou pesquisa)
+│
+├── templates/                # [AVANÇADO/MODULOS] Para templates de página específicos (Page Templates)
+│   ├── template-pesquisa.php # Moldura exclusiva para a seção de Pesquisa
+│   └── template-extensao.php # Moldura exclusiva para a seção de Extensão
+│
+├── assets/                   # [ORGANIZAÇÃO] Arquivos estáticos do Front-End
+│   ├── css/                  # Folhas de estilo adicionais (se quiser separar do style.css)
+│   │   ├── main.css
+│   │   └── pages/            # CSS específico por página (opcional)
+│   ├── js/                   # Scripts JavaScript (interatividade, menus mobile)
+│   │   └── main.js
+│   └── images/               # Imagens estáticas do tema (logos, ícones padrão)
+│
+└── inc/                      # [BACK-END / FUTURO] Organização de código PHP avançado e modular
+    ├── custom-post-types.php # (Futuro) Para criar "Post Types" personalizados (ex: Projetos, Editais)
+    └── api-endpoints.php     # (Futuro) Caso precise criar rotas customizadas para back-end/APIs
